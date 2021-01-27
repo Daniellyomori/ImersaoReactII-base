@@ -1,10 +1,13 @@
-import styled from 'styled-components'
+/* eslint-disable func-names */
+import React from 'react';
+import styled from 'styled-components';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
-
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -12,11 +15,6 @@ import QuizBackground from '../src/components/QuizBackground';
 //   background-size:cover;
 //   background-position:center;
 // `
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -28,30 +26,54 @@ export const QuizContainer = styled.div`
     margin:auto;
     padding:15px;
   }
-`
+`;
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+
   return (
-    <QuizBackground backgroundImage = {db.bg}>
+    <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title> DaniLegends - Modelo Base </title>
+      </Head>
       <QuizContainer>
-          <Widget>
-            <Widget.Header>
-              <h1> League of Legends </h1>
-            </Widget.Header>
+        <Widget>
+          <Widget.Header>
+            <h1> League of Legends </h1>
+          </Widget.Header>
 
-            <Widget.Content>
-              <p> AAAAA </p>
-            </Widget.Content>
-          </Widget>
+          <Widget.Content>
+            <form onSubmit={function (infosDoEvento) {
+              infosDoEvento.preventDefault();
+              router.push(`/quiz?name=${name}`);
+              console.log('Fazendo submssão pelo React');
+            }}
+            >
+              <input
+                onChange={function (infosDoEvento) {
+                  // State
+                  // name = infosDoEvento.target.value;
+                  setName(infosDoEvento.target.value);
+                }}
+                placeholder="Nome Completo"
+              />
+              <button type="submit" disabled={name.length === 0}>
+                Jogar
+                {name}
+              </button>
+            </form>
+          </Widget.Content>
+        </Widget>
 
-          <Widget>
-            <Widget.Content>
-              <p> BBBB</p>
-            </Widget.Content>
-          </Widget>
+        <Widget>
+          <Widget.Content>
+            <p> BBBB</p>
+          </Widget.Content>
+        </Widget>
 
-        <Footer/>
-        <GitHubCorner projectUrl='https://github.com/Daniellyomori'/>
+        <Footer />
+        <GitHubCorner projectUrl="https://github.com/Daniellyomori" />
       </QuizContainer>
     </QuizBackground>
   );
