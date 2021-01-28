@@ -1,28 +1,126 @@
 {
-    "bg": "https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/pt_BR/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg",
+    "bg": "https://www.cabanadoleitor.com.br/wp-content/uploads/2020/11/EmeyJWcW4AEidxM-scaled.jpg",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_8.jpg",
+        "title": "Qual o real nome da Miss Fortune?",
+        "description": "Para aquecer!",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Elena",
+          "Miss Fortune",
+          "Sarah",
+          "Samira"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_7.jpg",
+        "title": "Na lore de League of Legends, Aatrox é um:",
+        "description": "Capeta!",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Darkin",
+           "Nija",
+           "Yordle",
+           "Ascendente"
+        ]
+      },
+      {
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayle_3.jpg",
+        "title": "Quem é a irmã da Kayle?",
+        "description": "A Caída.",
+        "answer": 1,
+        "alternatives": [
+           "Zoe",
+           "Morgana",
+           "Fiora",
+           "Katarina"
+        ]
+      },
+      {
+        "image": "https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/freljord_splash.jpg",
+        "title": "Quem é a antiga rainha de Freljord?",
+        "description": "Não é a Anivia!",
+        "answer": 2,
+        "alternatives": [
+           "Ashe",
+           "Sejuani",
+           "Avarosa",
+           "Lissandra"
+        ]
+      },
+      {
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
+        "title": "Qual a cidade do Fizz?",
+        "description": "Hmmm...",
+        "answer": 0,
+        "alternatives": [
+           "Bilgewater",
+           "Ionia",
+           "Brandle City",
+           "Águas de Sentina"
+        ]
+      },
+      {
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kled_0.jpg",
+        "title": "Qual o nome do bichinho do Kled?",
+        "description": "Rainha do league of legends",
+        "answer": 3,
+        "alternatives": [
+           "Sckar",
+           "Skar",
+           "Scaar",
+           "Skaarl"
+        ]
+      },
+      {
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_18.jpg",
+        "title": "Qual campeão que pode combar com Yasuo usando sua Ultimate?",
+        "description": "Foi lançado mais recentemente.",
+        "answer": 2,
+        "alternatives": [
+           "Caitlyn",
+           "Rakan",
+           "Yone",
+           "Leona"
+        ]
+      },
+      {
+        "image": "https://i.ytimg.com/vi/3bA-t8k090Y/maxresdefault.jpg",
+        "title": "Quem é o Mensageiro da Morte?",
+        "description": "Volta Pentakill.",
+        "answer": 0,
+        "alternatives": [
+           "Karthus",
+           "Zed",
+           "Fiddlestricks",
+           "Pyke"
+        ]
+      },
+      {
+        "image": "https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/piltover_splash.jpg",
+        "title": "Quem tem o apelido de Xerife de Piltover?",
+        "description": "Eu cuido do caso!",
+        "answer": 3,
+        "alternatives": [
+           "Vi",
+           "Miss Fortune",
+           "Ezreal",
+           "Caitlyn"
+        ]
+      },
+      {
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kled_0.jpg",
+        "title": "Qual foi a primeira paixão de Gangplank?",
+        "description": "Essa nem eu sabia.",
+        "answer": 1,
+        "alternatives": [
+           "Miss Fortune",
+           "Illaoi",
+           "Kalista",
+           "Fiora"
         ]
       }
     ],
