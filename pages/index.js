@@ -28,13 +28,13 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title> DaniLegends - Modelo Base </title>
+        <title> DaniLegends </title>
       </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1> League of Legends </h1>
+            <h1> QUIZ SOBRE LEAGUE OF LEGENDS </h1>
           </Widget.Header>
 
           <Widget.Content>
@@ -45,7 +45,7 @@ export default function Home() {
             >
               <Input
                 name="nomeDoUsuario"
-                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)} 
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
                 placeholder="Nome Completo"
                 value={name}
               />
@@ -57,8 +57,11 @@ export default function Home() {
         </Widget>
 
         <Widget>
+          <Widget.Header>
+            <h3> Quiz feito na Imersão React II</h3>
+          </Widget.Header>
           <Widget.Content>
-            <p> BBBB</p>
+            <p>Espero que se divirtam! c:</p>
           </Widget.Content>
         </Widget>
 

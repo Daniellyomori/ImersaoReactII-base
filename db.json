@@ -22,7 +22,7 @@
         "answer": 0,
         "alternatives": [
            "Darkin",
-           "Nija",
+           "Ninja",
            "Yordle",
            "Ascendente"
         ]
@@ -78,7 +78,7 @@
       {
         "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_18.jpg",
         "title": "Qual campeão que pode combar com Yasuo usando sua Ultimate?",
-        "description": "Foi lançado mais recentemente.",
+        "description": "Foi lançado em 2020.",
         "answer": 2,
         "alternatives": [
            "Caitlyn",
@@ -95,7 +95,7 @@
         "alternatives": [
            "Karthus",
            "Zed",
-           "Fiddlestricks",
+           "Fiddlesticks",
            "Pyke"
         ]
       },
@@ -112,7 +112,7 @@
         ]
       },
       {
-        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kled_0.jpg",
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_7.jpg",
         "title": "Qual foi a primeira paixão de Gangplank?",
         "description": "Essa nem eu sabia.",
         "answer": 1,
